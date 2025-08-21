@@ -41,11 +41,7 @@ const perguntas = [
 
 let atual = 0;
 let perguntaAtual;
-<<<<<<< HEAD
 let historiafinal = "";
-=======
-let historiaFinal = "";
->>>>>>> 755a958ea2f31a7511bd183366f1a7dd5b67aa55
 
 function mostraPergunta() {
     if (atual >= perguntas.length) {
@@ -81,7 +77,3 @@ function mostraResultado() {
 }
 
 mostraPergunta();
-<<<<<<< HEAD
-=======
-
->>>>>>> 755a958ea2f31a7511bd183366f1a7dd5b67aa55

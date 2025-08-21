@@ -3,7 +3,7 @@ const caixaPerguntas = document.querySelector(".caixa-perguntas");
 const caixaAlternativas = document.querySelector(".caixa-alternativas");
 const caixaResultado = document.querySelector(".caixa-resultado");
 const textoResultado = document.querySelector(".texto-resultado");
-const perguntas = [
+
   {
     enunciado:
       "Brianna vai ingressar no mercado de trabalho e se depara com uma nova proposta do senado, a redução da jornada de trabalho, de 44horas para 36horas, o fim da escala 6x1. O que Brianna pensa sobre isso?",

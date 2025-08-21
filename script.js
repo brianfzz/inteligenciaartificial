@@ -5,77 +5,47 @@ const caixaResultado = document.querySelector(".caixa-resultado");
 const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
-    {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
-        alternativas: [
-            {
-                texto: "Isso é assustador!",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
-            },
-            {
-                texto: "Isso é maravilhoso!",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
-            }
-        ]
-    },
-    {
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
-        alternativas: [
-            {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-                afirmacao: "Conseguiu utilizar a IA para buscar informações úteis."
-            },
-            {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
-            }
-        ]
-    },
-    {
-        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
-        alternativas: [
-            {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao: "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
-            },
-            {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao: "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
-            }
-        ]
-    },
-    {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
-        alternativas: [
-            {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
-                afirmacao: "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes."
-            },
-            {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
-                afirmacao: "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!"
-            }
-        ]
-    },
-    {
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz? ",
-        alternativas: [
-            {
-                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-                afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
-            },
-            {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-                afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
-            }
-        ]
-    },
-];
+  {
+    enunciado:
+      "Brianna vai ingressar no mercado de trabalho e se depara com uma nova proposta do senado, a redução da jornada de trabalho, de 44horas para 36horas, o fim da escala 6x1. O que Brianna pensa sobre isso?",
+    alternativas: ["Isso é péssimo. Isso poderia levar à redução de salários e a demissões em massa.", "Isso é maravilhoso. Mais tempo livre melhora a saúde mental e a qualidade de vida.",
 
+    ]
+  },
+
+  {
+    enunciado:
+      "Com a descoberta desta nova proposta, Brianna ouve alguns de seus amigos discutindo sobre o assunto e decide intervir antes que eles comecassem a discutir. Oque Brianna fala?",
+    alternativas: [
+      "Pessoal, vamos parar de brigar e olhar para o lado positivo. A redução da jornada de trabalho não é só sobre ter mais folga. É uma chance de termos uma vida mais equilibrada, com tempo para nós mesmos e para a família. Para mim, a jornada de 6x1 é exaustiva e essa mudança já devia ter acontecido.",
+      "Gente, calma! Eu sei que a ideia de trabalhar menos é tentadora, mas será que essa mudança não vai prejudicar a economia? A escala 6x1 pode não ser perfeita, mas tem mantido as coisas funcionando. Mudar isso agora é um risco muito grande.",
+    ]
+  },
+  {
+    enunciado:
+      "Nessa conversa Brianna escuta um colega perguntando “O fim da escala 6x1 e a adoção de um modelo com mais dias de descanso contribuiriam para o aumento da produtividade?” o que Brianna responde?",
+    alternativas: [
+      "Sim, pessoas mais descansadas e felizes são mais criativas e focadas. O bem-estar físico e mental reduz o esgotamento e aumenta a qualidade do trabalho, elevando a produtividade.",
+      "Não necessariamente. A mudança pode aumentar os custos para as empresas, ou fazer com que exijam o mesmo trabalho em menos tempo, gerando mais estresse. Isso pode levar a quedas na eficiência e até demissões, em vez de mais produtividade.",
+    ]
+  },
+  {
+    enunciado:
+      "Ao final da discussão, Brianna precisou voltar ao trabalho e ficou com a dúvida “será que essa será a melhor decisão do senado pra mim?” e acaba compartilhando esse pensamento com seu chefe. Oque ele deve responder ?",
+    alternativas: [
+      "que ele vê a mudança como uma oportunidade para melhorar a vida e a produtividade de Brianna, prometendo apoio e planejamento na transição.",
+      "expressa preocupação com os desafios operacionais e a incerteza da mudança, alertando sobre possíveis impactos negativos na rotina de trabalho.",
+    ]
+  },
+];
 
 let atual = 0;
 let perguntaAtual;
+<<<<<<< HEAD
+let historiafinal = "";
+=======
 let historiaFinal = "";
+>>>>>>> 755a958ea2f31a7511bd183366f1a7dd5b67aa55
 
 function mostraPergunta() {
     if (atual >= perguntas.length) {
@@ -111,3 +81,7 @@ function mostraResultado() {
 }
 
 mostraPergunta();
+<<<<<<< HEAD
+=======
+
+>>>>>>> 755a958ea2f31a7511bd183366f1a7dd5b67aa55
